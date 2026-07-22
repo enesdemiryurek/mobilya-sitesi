@@ -86,7 +86,7 @@ export default async function ProductPage({ params }) {
 
               <div 
                 className="text-sm text-earth leading-relaxed font-light space-y-4 mb-10 whitespace-pre-line [&>strong]:text-anthracite [&>strong]:font-semibold [&>em]:italic"
-                dangerouslySetInnerHTML={{ __html: product.description || product.short_description || "Bu ürün için henüz bir açıklama girilmemiş." }}
+                dangerouslySetInnerHTML={{ __html: (product.description || product.short_description || "Bu ürün için henüz bir açıklama girilmemiş.").replace(/\\n/g, '<br/>') }}
               />
 
               {/* Action Buttons */}

@@ -1,4 +1,4 @@
-export const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/mobilya-sitesi';
+export const basePath = typeof process.env.NEXT_PUBLIC_BASE_PATH !== 'undefined' ? process.env.NEXT_PUBLIC_BASE_PATH : '/mobilya-sitesi';
 
 export function getImgUrl(url) {
   if (!url) return '';
