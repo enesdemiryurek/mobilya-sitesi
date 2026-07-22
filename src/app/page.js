@@ -506,7 +506,7 @@ export default function Home() {
               >
                 {/* Background Image */}
                 <img
-                  src={cat.image}
+                  src={getImgUrl(cat.image)}
                   alt={cat.name}
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                 />
@@ -640,7 +640,7 @@ function ScrollExpandSection() {
           className="relative overflow-hidden flex items-center justify-center shadow-2xl"
         >
           <img 
-            src="/byman-hero.jpg" 
+            src={getImgUrl("/byman-hero.jpg")} 
             alt="BYMAN Ankara Ofis Mobilyası" 
             className="absolute inset-0 w-full h-full object-cover"
           />

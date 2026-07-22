@@ -127,7 +127,7 @@ export default function KonseptPage() {
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center bg-fixed"
           style={{
-            backgroundImage: `url('/byman-hero.jpg')`,
+            backgroundImage: `url('${getImgUrl('/byman-hero.jpg')}')`,
           }}
         />
         <div className="absolute inset-0 bg-black/60 z-10" />
