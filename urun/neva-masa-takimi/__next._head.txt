@@ -1,0 +1,77 @@
+1:"$Sreact.fragment"
+2:I[97367,["/mobilya-sitesi/_next/static/chunks/12o6p3vqnzo2t.js","/mobilya-sitesi/_next/static/chunks/08br~6s8t-9q-.js","/mobilya-sitesi/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+3:I[97367,["/mobilya-sitesi/_next/static/chunks/12o6p3vqnzo2t.js","/mobilya-sitesi/_next/static/chunks/08br~6s8t-9q-.js","/mobilya-sitesi/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+10:I[27201,["/mobilya-sitesi/_next/static/chunks/12o6p3vqnzo2t.js","/mobilya-sitesi/_next/static/chunks/08br~6s8t-9q-.js","/mobilya-sitesi/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+5:T78b,<h2 data-section-id="v8ar8m" data-start="97" data-end="134"></h2>
+\n<p data-start="136" data-end="429">Şıklığı ve fonksiyonelliği bir araya getiren <strong data-start="181" data-end="212">Modern Yönetici Ofis Takımı</strong>, sade beyaz rengi ve siyah detaylarıyla ofisinize hem ferahlık hem de güçlü bir görünüm kazandırır. Modern çizgileri ve ergonomik yapısıyla, yönetici odaları ve prestijli çalışma alanları için kusursuz bir tercihtir.</p>
+\n<p data-start="136" data-end="429">İsteğe bağlı Sandalye çıkarılıp eklenebilir.</p>
+\n
+\n<h3 data-section-id="1tsydc9" data-start="436" data-end="466"><strong data-start="442" data-end="466">Öne Çıkan Özellikler</strong></h3>
+\n<ul data-start="467" data-end="934">
+\n 	<li data-start="467" data-end="556">
+\n<p data-start="469" data-end="556"><strong data-start="469" data-end="494">Geniş Çalışma Masası:</strong> Siyah çerçeve detayıyla hem modern hem güçlü bir duruş sunar.</p>
+\n</li>
+\n 	<li data-start="557" data-end="661">
+\n<p data-start="559" data-end="661"><strong data-start="559" data-end="586">Çekmeceli Arkalı Dolap:</strong> Belgeler, dosyalar ve kişisel eşyalar için maksimum depolama alanı sağlar.</p>
+\n</li>
+\n 	<li data-start="662" data-end="753">
+\n<p data-start="664" data-end="753"><strong data-start="664" data-end="691">Kompakt Yardımcı Sehpa:</strong> Ekstra çalışma veya sunum alanı olarak pratik kullanım sunar.</p>
+\n</li>
+\n 	<li data-start="754" data-end="851">
+\n<p data-start="756" data-end="851"><strong data-start="756" data-end="784">Ergonomik Fileli Koltuk:</strong> Bel ve sırt desteğiyle uzun saatler konforlu çalışma imkânı verir.</p>
+\n</li>
+\n 	<li data-start="852" data-end="934">
+\n<p data-start="854" data-end="934"><strong data-start="854" data-end="883">Minimalist Beyaz Tasarım:</strong> Ofisinizde aydınlık ve ferah bir atmosfer yaratır.</p>
+\n</li>
+\n</ul>6:T78b,<h2 data-section-id="v8ar8m" data-start="97" data-end="134"></h2>
+\n<p data-start="136" data-end="429">Şıklığı ve fonksiyonelliği bir araya getiren <strong data-start="181" data-end="212">Modern Yönetici Ofis Takımı</strong>, sade beyaz rengi ve siyah detaylarıyla ofisinize hem ferahlık hem de güçlü bir görünüm kazandırır. Modern çizgileri ve ergonomik yapısıyla, yönetici odaları ve prestijli çalışma alanları için kusursuz bir tercihtir.</p>
+\n<p data-start="136" data-end="429">İsteğe bağlı Sandalye çıkarılıp eklenebilir.</p>
+\n
+\n<h3 data-section-id="1tsydc9" data-start="436" data-end="466"><strong data-start="442" data-end="466">Öne Çıkan Özellikler</strong></h3>
+\n<ul data-start="467" data-end="934">
+\n 	<li data-start="467" data-end="556">
+\n<p data-start="469" data-end="556"><strong data-start="469" data-end="494">Geniş Çalışma Masası:</strong> Siyah çerçeve detayıyla hem modern hem güçlü bir duruş sunar.</p>
+\n</li>
+\n 	<li data-start="557" data-end="661">
+\n<p data-start="559" data-end="661"><strong data-start="559" data-end="586">Çekmeceli Arkalı Dolap:</strong> Belgeler, dosyalar ve kişisel eşyalar için maksimum depolama alanı sağlar.</p>
+\n</li>
+\n 	<li data-start="662" data-end="753">
+\n<p data-start="664" data-end="753"><strong data-start="664" data-end="691">Kompakt Yardımcı Sehpa:</strong> Ekstra çalışma veya sunum alanı olarak pratik kullanım sunar.</p>
+\n</li>
+\n 	<li data-start="754" data-end="851">
+\n<p data-start="756" data-end="851"><strong data-start="756" data-end="784">Ergonomik Fileli Koltuk:</strong> Bel ve sırt desteğiyle uzun saatler konforlu çalışma imkânı verir.</p>
+\n</li>
+\n 	<li data-start="852" data-end="934">
+\n<p data-start="854" data-end="934"><strong data-start="854" data-end="883">Minimalist Beyaz Tasarım:</strong> Ofisinizde aydınlık ve ferah bir atmosfer yaratır.</p>
+\n</li>
+\n</ul>0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"NEVA MASA TAKIMI - Coşkun Büro"}],["$","meta","1",{"name":"description","content":"$5"}],["$","meta","2",{"name":"author","content":"BYMAN Design"}],["$","meta","3",{"name":"keywords","content":"ofis mobilyaları,yönetici takımı,ofis koltuğu,toplantı masası,lüks ofis tasarımı,kurumsal mobilya"}],["$","meta","4",{"property":"og:title","content":"NEVA MASA TAKIMI - Coşkun Büro"}],["$","meta","5",{"property":"og:description","content":"$6"}],"$L7","$L8","$L9","$La","$Lb","$Lc","$Ld"]}]}]}],"$Le"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"dtMIDbYJ0LwPFlPHmDVKO"}
+7:["$","meta","6",{"property":"og:image","content":"http://localhost:3000/uploads/2025/07/WhatsApp-Gorsel-2025-07-29-saat-17.41.10_795e3b96.jpg"}]
+8:["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}]
+9:["$","meta","8",{"name":"twitter:title","content":"NEVA MASA TAKIMI - Coşkun Büro"}]
+f:T78b,<h2 data-section-id="v8ar8m" data-start="97" data-end="134"></h2>
+\n<p data-start="136" data-end="429">Şıklığı ve fonksiyonelliği bir araya getiren <strong data-start="181" data-end="212">Modern Yönetici Ofis Takımı</strong>, sade beyaz rengi ve siyah detaylarıyla ofisinize hem ferahlık hem de güçlü bir görünüm kazandırır. Modern çizgileri ve ergonomik yapısıyla, yönetici odaları ve prestijli çalışma alanları için kusursuz bir tercihtir.</p>
+\n<p data-start="136" data-end="429">İsteğe bağlı Sandalye çıkarılıp eklenebilir.</p>
+\n
+\n<h3 data-section-id="1tsydc9" data-start="436" data-end="466"><strong data-start="442" data-end="466">Öne Çıkan Özellikler</strong></h3>
+\n<ul data-start="467" data-end="934">
+\n 	<li data-start="467" data-end="556">
+\n<p data-start="469" data-end="556"><strong data-start="469" data-end="494">Geniş Çalışma Masası:</strong> Siyah çerçeve detayıyla hem modern hem güçlü bir duruş sunar.</p>
+\n</li>
+\n 	<li data-start="557" data-end="661">
+\n<p data-start="559" data-end="661"><strong data-start="559" data-end="586">Çekmeceli Arkalı Dolap:</strong> Belgeler, dosyalar ve kişisel eşyalar için maksimum depolama alanı sağlar.</p>
+\n</li>
+\n 	<li data-start="662" data-end="753">
+\n<p data-start="664" data-end="753"><strong data-start="664" data-end="691">Kompakt Yardımcı Sehpa:</strong> Ekstra çalışma veya sunum alanı olarak pratik kullanım sunar.</p>
+\n</li>
+\n 	<li data-start="754" data-end="851">
+\n<p data-start="756" data-end="851"><strong data-start="756" data-end="784">Ergonomik Fileli Koltuk:</strong> Bel ve sırt desteğiyle uzun saatler konforlu çalışma imkânı verir.</p>
+\n</li>
+\n 	<li data-start="852" data-end="934">
+\n<p data-start="854" data-end="934"><strong data-start="854" data-end="883">Minimalist Beyaz Tasarım:</strong> Ofisinizde aydınlık ve ferah bir atmosfer yaratır.</p>
+\n</li>
+\n</ul>a:["$","meta","9",{"name":"twitter:description","content":"$f"}]
+b:["$","meta","10",{"name":"twitter:image","content":"http://localhost:3000/uploads/2025/07/WhatsApp-Gorsel-2025-07-29-saat-17.41.10_795e3b96.jpg"}]
+c:["$","link","11",{"rel":"icon","href":"/mobilya-sitesi/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}]
+d:["$","$L10","12",{}]
+e:["$","meta",null,{"name":"next-size-adjust","content":""}]

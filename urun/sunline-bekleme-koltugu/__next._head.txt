@@ -1,0 +1,200 @@
+1:"$Sreact.fragment"
+2:I[97367,["/mobilya-sitesi/_next/static/chunks/12o6p3vqnzo2t.js","/mobilya-sitesi/_next/static/chunks/08br~6s8t-9q-.js","/mobilya-sitesi/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+3:I[97367,["/mobilya-sitesi/_next/static/chunks/12o6p3vqnzo2t.js","/mobilya-sitesi/_next/static/chunks/08br~6s8t-9q-.js","/mobilya-sitesi/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+10:I[27201,["/mobilya-sitesi/_next/static/chunks/12o6p3vqnzo2t.js","/mobilya-sitesi/_next/static/chunks/08br~6s8t-9q-.js","/mobilya-sitesi/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+5:T6f3,<ul id="pills-tab" class="nav nav-pills mb-3 justify-content-center d-md-flex d-none" role="tablist">
+\n 	<li class="nav-item"><a id="pills-description-tab" class="nav-link active show fs-lg-30 fs-18 font-weight-600 p-0 mr-md-10 mr-4" role="tab" href="https://goldsit.com/tr/urun/sunline-1#pills-description" data-toggle="pill" aria-controls="pills-description" aria-selected="false">SUNLINE - Teknik Bilgiler &amp; Malzemeler</a></li>
+\n</ul>
+\n<div class="tab-content bg-white-md shadow-none py-md-5 p-0">
+\n<div id="collapse-tabs-accordion-01">
+\n<div id="pills-description" class="tab-pane tab-pane-parent fade show active" role="tabpanel">
+\n<div class="card border-0 bg-transparent">
+\n<div id="description-collapse-01" class="collapsible collapse show" aria-labelledby="headingDetails-01" data-parent="#collapse-tabs-accordion-01">
+\n<div class="row">
+\n<div class="col-lg-8 text-left">
+\n<table border="0">
+\n<tbody>
+\n<tr>
+\n<th>KOD</th>
+\n<th>TANIM</th>
+\n<th>AÇIKLAMA</th>
+\n<th>HACİM</th>
+\n</tr>
+\n<tr>
+\n<td>300 C</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>İkili Krom Ayak</td>
+\n<td>0,79 m³</td>
+\n</tr>
+\n<tr>
+\n<td>300 C SH</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>İkili Sehpalı Krom Ayak</td>
+\n<td>0,79 m³</td>
+\n</tr>
+\n<tr>
+\n<td>330 C</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>Üçlü Krom Ayak</td>
+\n<td>1,11 m³</td>
+\n</tr>
+\n<tr>
+\n<td>300 P</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>İkili Boyalı Ayak</td>
+\n<td>0,79 m³</td>
+\n</tr>
+\n<tr>
+\n<td>300 P SH</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>İkili Sehpalı Boyalı Ayak</td>
+\n<td>0,79 m³</td>
+\n</tr>
+\n<tr>
+\n<td>330 P</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>Üçlü Boyalı Ayak</td>
+\n<td>1,11 m³</td>
+\n</tr>
+\n</tbody>
+\n</table>
+\n</div>
+\n</div>
+\n</div>
+\n</div>
+\n</div>
+\n</div>
+\n</div>6:T6f3,<ul id="pills-tab" class="nav nav-pills mb-3 justify-content-center d-md-flex d-none" role="tablist">
+\n 	<li class="nav-item"><a id="pills-description-tab" class="nav-link active show fs-lg-30 fs-18 font-weight-600 p-0 mr-md-10 mr-4" role="tab" href="https://goldsit.com/tr/urun/sunline-1#pills-description" data-toggle="pill" aria-controls="pills-description" aria-selected="false">SUNLINE - Teknik Bilgiler &amp; Malzemeler</a></li>
+\n</ul>
+\n<div class="tab-content bg-white-md shadow-none py-md-5 p-0">
+\n<div id="collapse-tabs-accordion-01">
+\n<div id="pills-description" class="tab-pane tab-pane-parent fade show active" role="tabpanel">
+\n<div class="card border-0 bg-transparent">
+\n<div id="description-collapse-01" class="collapsible collapse show" aria-labelledby="headingDetails-01" data-parent="#collapse-tabs-accordion-01">
+\n<div class="row">
+\n<div class="col-lg-8 text-left">
+\n<table border="0">
+\n<tbody>
+\n<tr>
+\n<th>KOD</th>
+\n<th>TANIM</th>
+\n<th>AÇIKLAMA</th>
+\n<th>HACİM</th>
+\n</tr>
+\n<tr>
+\n<td>300 C</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>İkili Krom Ayak</td>
+\n<td>0,79 m³</td>
+\n</tr>
+\n<tr>
+\n<td>300 C SH</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>İkili Sehpalı Krom Ayak</td>
+\n<td>0,79 m³</td>
+\n</tr>
+\n<tr>
+\n<td>330 C</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>Üçlü Krom Ayak</td>
+\n<td>1,11 m³</td>
+\n</tr>
+\n<tr>
+\n<td>300 P</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>İkili Boyalı Ayak</td>
+\n<td>0,79 m³</td>
+\n</tr>
+\n<tr>
+\n<td>300 P SH</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>İkili Sehpalı Boyalı Ayak</td>
+\n<td>0,79 m³</td>
+\n</tr>
+\n<tr>
+\n<td>330 P</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>Üçlü Boyalı Ayak</td>
+\n<td>1,11 m³</td>
+\n</tr>
+\n</tbody>
+\n</table>
+\n</div>
+\n</div>
+\n</div>
+\n</div>
+\n</div>
+\n</div>
+\n</div>0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"SUNLİNE BEKLEME KOLTUĞU - Coşkun Büro"}],["$","meta","1",{"name":"description","content":"$5"}],["$","meta","2",{"name":"author","content":"BYMAN Design"}],["$","meta","3",{"name":"keywords","content":"ofis mobilyaları,yönetici takımı,ofis koltuğu,toplantı masası,lüks ofis tasarımı,kurumsal mobilya"}],["$","meta","4",{"property":"og:title","content":"SUNLİNE BEKLEME KOLTUĞU - Coşkun Büro"}],["$","meta","5",{"property":"og:description","content":"$6"}],"$L7","$L8","$L9","$La","$Lb","$Lc","$Ld"]}]}]}],"$Le"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"dtMIDbYJ0LwPFlPHmDVKO"}
+7:["$","meta","6",{"property":"og:image","content":"http://localhost:3000/uploads/2025/09/Sunline-01.jpg"}]
+8:["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}]
+9:["$","meta","8",{"name":"twitter:title","content":"SUNLİNE BEKLEME KOLTUĞU - Coşkun Büro"}]
+f:T6f3,<ul id="pills-tab" class="nav nav-pills mb-3 justify-content-center d-md-flex d-none" role="tablist">
+\n 	<li class="nav-item"><a id="pills-description-tab" class="nav-link active show fs-lg-30 fs-18 font-weight-600 p-0 mr-md-10 mr-4" role="tab" href="https://goldsit.com/tr/urun/sunline-1#pills-description" data-toggle="pill" aria-controls="pills-description" aria-selected="false">SUNLINE - Teknik Bilgiler &amp; Malzemeler</a></li>
+\n</ul>
+\n<div class="tab-content bg-white-md shadow-none py-md-5 p-0">
+\n<div id="collapse-tabs-accordion-01">
+\n<div id="pills-description" class="tab-pane tab-pane-parent fade show active" role="tabpanel">
+\n<div class="card border-0 bg-transparent">
+\n<div id="description-collapse-01" class="collapsible collapse show" aria-labelledby="headingDetails-01" data-parent="#collapse-tabs-accordion-01">
+\n<div class="row">
+\n<div class="col-lg-8 text-left">
+\n<table border="0">
+\n<tbody>
+\n<tr>
+\n<th>KOD</th>
+\n<th>TANIM</th>
+\n<th>AÇIKLAMA</th>
+\n<th>HACİM</th>
+\n</tr>
+\n<tr>
+\n<td>300 C</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>İkili Krom Ayak</td>
+\n<td>0,79 m³</td>
+\n</tr>
+\n<tr>
+\n<td>300 C SH</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>İkili Sehpalı Krom Ayak</td>
+\n<td>0,79 m³</td>
+\n</tr>
+\n<tr>
+\n<td>330 C</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>Üçlü Krom Ayak</td>
+\n<td>1,11 m³</td>
+\n</tr>
+\n<tr>
+\n<td>300 P</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>İkili Boyalı Ayak</td>
+\n<td>0,79 m³</td>
+\n</tr>
+\n<tr>
+\n<td>300 P SH</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>İkili Sehpalı Boyalı Ayak</td>
+\n<td>0,79 m³</td>
+\n</tr>
+\n<tr>
+\n<td>330 P</td>
+\n<td>Bekleme Koltuğu</td>
+\n<td>Üçlü Boyalı Ayak</td>
+\n<td>1,11 m³</td>
+\n</tr>
+\n</tbody>
+\n</table>
+\n</div>
+\n</div>
+\n</div>
+\n</div>
+\n</div>
+\n</div>
+\n</div>a:["$","meta","9",{"name":"twitter:description","content":"$f"}]
+b:["$","meta","10",{"name":"twitter:image","content":"http://localhost:3000/uploads/2025/09/Sunline-01.jpg"}]
+c:["$","link","11",{"rel":"icon","href":"/mobilya-sitesi/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}]
+d:["$","$L10","12",{}]
+e:["$","meta",null,{"name":"next-size-adjust","content":""}]

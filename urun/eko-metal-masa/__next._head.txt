@@ -1,0 +1,100 @@
+1:"$Sreact.fragment"
+2:I[97367,["/mobilya-sitesi/_next/static/chunks/12o6p3vqnzo2t.js","/mobilya-sitesi/_next/static/chunks/08br~6s8t-9q-.js","/mobilya-sitesi/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+3:I[97367,["/mobilya-sitesi/_next/static/chunks/12o6p3vqnzo2t.js","/mobilya-sitesi/_next/static/chunks/08br~6s8t-9q-.js","/mobilya-sitesi/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+c:I[27201,["/mobilya-sitesi/_next/static/chunks/12o6p3vqnzo2t.js","/mobilya-sitesi/_next/static/chunks/08br~6s8t-9q-.js","/mobilya-sitesi/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+5:T47f,<div class="dad65929">
+\n<div class="_4f9bf79 d7dc56a8 _43c05b5">
+\n<div class="ds-message _656c965">
+\n<div class="ds-markdown">
+\n<p class="ds-markdown-paragraph"><strong>EKO METAL - Teknik Bilgiler &amp; Malzemeler</strong></p>
+\n<p class="ds-markdown-paragraph"><strong>MASA:</strong> Genişlik: 80-100-120-140-160-180 cm - Derinlik: 69 cm - Yükseklik: 75 cm
+\n<strong>ETAJER:</strong> Genişlik: 80 cm - Derinlik: 50 cm - Yükseklik: 81 cm</p>
+\n
+\n</div>
+\n</div>
+\n<div class="ds-theme"></div>
+\n<div class="ds-flex _0a3d93b">
+\n<div class="ds-flex _965abe9 _54866f7">
+\n<div class="_17e543b db183363" tabindex="-1" role="button" aria-disabled="false">
+\n<div class="ds-icon"></div>
+\n</div>
+\n<div class="_17e543b db183363" tabindex="-1" role="button" aria-disabled="false">
+\n<div class="ds-icon"></div>
+\n</div>
+\n<div class="_17e543b db183363" tabindex="-1" role="button" aria-disabled="false">
+\n<div class="ds-icon"></div>
+\n</div>
+\n<div class="_17e543b db183363" tabindex="-1" role="button" aria-disabled="false">
+\n<div class="ds-icon"></div>
+\n</div>
+\n</div>
+\n<div></div>
+\n</div>
+\n</div>
+\n</div>
+\n<div class="_871cbca"></div>6:T47f,<div class="dad65929">
+\n<div class="_4f9bf79 d7dc56a8 _43c05b5">
+\n<div class="ds-message _656c965">
+\n<div class="ds-markdown">
+\n<p class="ds-markdown-paragraph"><strong>EKO METAL - Teknik Bilgiler &amp; Malzemeler</strong></p>
+\n<p class="ds-markdown-paragraph"><strong>MASA:</strong> Genişlik: 80-100-120-140-160-180 cm - Derinlik: 69 cm - Yükseklik: 75 cm
+\n<strong>ETAJER:</strong> Genişlik: 80 cm - Derinlik: 50 cm - Yükseklik: 81 cm</p>
+\n
+\n</div>
+\n</div>
+\n<div class="ds-theme"></div>
+\n<div class="ds-flex _0a3d93b">
+\n<div class="ds-flex _965abe9 _54866f7">
+\n<div class="_17e543b db183363" tabindex="-1" role="button" aria-disabled="false">
+\n<div class="ds-icon"></div>
+\n</div>
+\n<div class="_17e543b db183363" tabindex="-1" role="button" aria-disabled="false">
+\n<div class="ds-icon"></div>
+\n</div>
+\n<div class="_17e543b db183363" tabindex="-1" role="button" aria-disabled="false">
+\n<div class="ds-icon"></div>
+\n</div>
+\n<div class="_17e543b db183363" tabindex="-1" role="button" aria-disabled="false">
+\n<div class="ds-icon"></div>
+\n</div>
+\n</div>
+\n<div></div>
+\n</div>
+\n</div>
+\n</div>
+\n<div class="_871cbca"></div>7:T47f,<div class="dad65929">
+\n<div class="_4f9bf79 d7dc56a8 _43c05b5">
+\n<div class="ds-message _656c965">
+\n<div class="ds-markdown">
+\n<p class="ds-markdown-paragraph"><strong>EKO METAL - Teknik Bilgiler &amp; Malzemeler</strong></p>
+\n<p class="ds-markdown-paragraph"><strong>MASA:</strong> Genişlik: 80-100-120-140-160-180 cm - Derinlik: 69 cm - Yükseklik: 75 cm
+\n<strong>ETAJER:</strong> Genişlik: 80 cm - Derinlik: 50 cm - Yükseklik: 81 cm</p>
+\n
+\n</div>
+\n</div>
+\n<div class="ds-theme"></div>
+\n<div class="ds-flex _0a3d93b">
+\n<div class="ds-flex _965abe9 _54866f7">
+\n<div class="_17e543b db183363" tabindex="-1" role="button" aria-disabled="false">
+\n<div class="ds-icon"></div>
+\n</div>
+\n<div class="_17e543b db183363" tabindex="-1" role="button" aria-disabled="false">
+\n<div class="ds-icon"></div>
+\n</div>
+\n<div class="_17e543b db183363" tabindex="-1" role="button" aria-disabled="false">
+\n<div class="ds-icon"></div>
+\n</div>
+\n<div class="_17e543b db183363" tabindex="-1" role="button" aria-disabled="false">
+\n<div class="ds-icon"></div>
+\n</div>
+\n</div>
+\n<div></div>
+\n</div>
+\n</div>
+\n</div>
+\n<div class="_871cbca"></div>0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"EKO METAL MASA - Coşkun Büro"}],["$","meta","1",{"name":"description","content":"$5"}],["$","meta","2",{"name":"author","content":"BYMAN Design"}],["$","meta","3",{"name":"keywords","content":"ofis mobilyaları,yönetici takımı,ofis koltuğu,toplantı masası,lüks ofis tasarımı,kurumsal mobilya"}],["$","meta","4",{"property":"og:title","content":"EKO METAL MASA - Coşkun Büro"}],["$","meta","5",{"property":"og:description","content":"$6"}],["$","meta","6",{"property":"og:image","content":"http://localhost:3000/uploads/2025/09/Eko-MEtal-1.jpg"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:title","content":"EKO METAL MASA - Coşkun Büro"}],["$","meta","9",{"name":"twitter:description","content":"$7"}],"$L8","$L9","$La"]}]}]}],"$Lb"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"dtMIDbYJ0LwPFlPHmDVKO"}
+8:["$","meta","10",{"name":"twitter:image","content":"http://localhost:3000/uploads/2025/09/Eko-MEtal-1.jpg"}]
+9:["$","link","11",{"rel":"icon","href":"/mobilya-sitesi/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}]
+a:["$","$Lc","12",{}]
+b:["$","meta",null,{"name":"next-size-adjust","content":""}]
