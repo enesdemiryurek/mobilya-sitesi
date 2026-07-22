@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FDFBF7;
+  --color-beige: #F5EFE6;
+  --color-sand: #FAF9F6;
+  --color-clay: #EAE3D2;
+  --color-wood: #C8B195;
+  --color-earth: #8E7F70;
+  --color-anthracite: #1C1C1C;
+  --color-charcoal: #2A2A2A;
+  
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-plus-jakarta), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 17.5px;
+  }
+}
+
+:root {
+  --background: #FDFBF7; /* Cream background by default */
+  --foreground: #1C1C1C; /* Anthracite text */
+}
+
+[data-theme="forest"] {
+  --color-cream: #F4F6F0;
+  --color-beige: #E6EAE0;
+  --color-sand: #EDF0E8;
+  --color-clay: #D2D8C9;
+  --color-wood: #758A6F;
+  --color-earth: #5C6E56;
+  --color-anthracite: #1E281C;
+  --color-charcoal: #2A3328;
+  --background: #F4F6F0;
+  --foreground: #1E281C;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-anthracite);
+  font-family: var(--font-sans);
+  font-size: 1.02rem;
+  line-height: 1.75;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Selection Style */
+::selection {
+  background-color: var(--color-wood);
+  color: var(--color-cream);
+}
+
+/* Custom Scrollbar for Luxury Feeling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-earth);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-anthracite);
+}
+
+/* Utilities */
+.text-serif-elegant {
+  font-family: var(--font-serif);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+.text-sans-clean {
+  font-family: var(--font-sans);
+  letter-spacing: 0.03em;
+}
+
+/* Glassmorphism for Navbar and Cards */
+.glass-effect {
+  background: rgba(253, 251, 247, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(200, 177, 149, 0.2);
+}
+
+/* Custom Line details for Luxury Aesthetic */
+.luxury-line {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(200, 177, 149, 0.1) 0%, rgba(200, 177, 149, 0.8) 50%, rgba(200, 177, 149, 0.1) 100%);
+}
+
+.luxury-border {
+  border-color: rgba(200, 177, 149, 0.25);
+}
+
+/* Pinterest Masonry Styling Helpers */
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  grid-auto-flow: dense;
+}
+
+/* Slide effects */
+.slide-in-right {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.2s ease;
+}
+
+.slide-in-left {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.2s ease;
+}
+
+.slide-in-active {
+  transform: translateX(0);
+  opacity: 1;
+}
