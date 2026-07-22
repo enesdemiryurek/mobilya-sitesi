@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, ArrowRight, Palette } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { getImgUrl } from "@/utils/image";
 
 const navLinks = [
   { href: "/", label: "Ana Sayfa" },
@@ -130,7 +131,7 @@ export default function Navbar() {
                               <div className="w-full aspect-[4/3] overflow-hidden bg-cream relative border border-transparent group-hover/item:border-wood/30 transition-colors duration-300">
                                 {subLink.image && (
                                   <img 
-                                    src={subLink.image} 
+                                    src={getImgUrl(subLink.image)} 
                                     alt={subLink.label} 
                                     className="absolute inset-0 w-full h-full object-cover transform group-hover/item:scale-105 transition-transform duration-700"
                                   />

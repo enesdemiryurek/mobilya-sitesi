@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { getImgUrl } from "@/utils/image";
 
 export default function ImageGallery({ images }) {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -21,7 +22,7 @@ export default function ImageGallery({ images }) {
         <AnimatePresence mode="wait">
           <motion.img
             key={activeIndex}
-            src={images[activeIndex]}
+            src={getImgUrl(images[activeIndex])}
             initial={{ opacity: 0, scale: 1.05 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0 }}
@@ -46,7 +47,7 @@ export default function ImageGallery({ images }) {
                   : "border-transparent opacity-60 hover:opacity-100 hover:scale-95"
               }`}
             >
-              <img src={img} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
+              <img src={getImgUrl(img)} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
             </button>
           ))}
         </div>

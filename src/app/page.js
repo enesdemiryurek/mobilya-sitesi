@@ -5,6 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { ArrowUpRight, ArrowRight, Sofa, BedDouble, Utensils, Package, Plus, Calendar } from "lucide-react";
 import Hero from "@/components/Hero";
+import { getImgUrl } from "@/utils/image";
 
 const newArrivals = [
   {
@@ -99,7 +100,7 @@ function CategoryCard({ cat, className = "" }) {
       className={`group block relative overflow-hidden bg-[#111] ${className}`}
     >
       <img
-        src={cat.image}
+        src={getImgUrl(cat.image)}
         alt={cat.name}
         className="absolute inset-0 w-full h-full object-cover object-center transform scale-100 group-hover:scale-105 transition-transform duration-[1200ms] ease-[cubic-bezier(0.25,1,0.5,1)]"
       />
@@ -131,7 +132,7 @@ export default function Home() {
   const [dynamicArrivals, setDynamicArrivals] = useState(newArrivals);
 
   useEffect(() => {
-    fetch('/api/products.json')
+    fetch(getImgUrl('/api/products.json'))
       .then(res => res.json())
       .then(data => {
         if (data && data.length > 0) {
@@ -358,7 +359,7 @@ export default function Home() {
                 {/* Image Wrap */}
                 <div className="relative w-full aspect-[3/4] overflow-hidden mb-8 bg-[#222]">
                   <img
-                    src={mat.image}
+                    src={getImgUrl(mat.image)}
                     alt={mat.title}
                     title={`${mat.title} - Ofis Mobilyası Materyali`}
                     className="w-full h-full object-cover transform scale-100 group-hover:scale-105 transition-transform duration-1000 ease-out opacity-90 group-hover:opacity-100"
@@ -433,7 +434,7 @@ export default function Home() {
                 {/* Image Wrap */}
                 <div className="overflow-hidden relative w-full h-[300px] md:h-full min-h-[220px] mb-4 bg-beige/25">
                   <img
-                    src={product.image}
+                    src={getImgUrl(product.image)}
                     alt={`${product.name} - ${product.category}`}
                     title={product.name}
                     className="absolute inset-0 w-full h-full object-cover transform scale-100 group-hover:scale-105 transition-transform duration-1000 ease-out"

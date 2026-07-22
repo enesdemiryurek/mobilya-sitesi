@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { getImgUrl } from "@/utils/image";
 
 const lookbookItems = [
   {
@@ -82,7 +83,7 @@ export default function KonseptPage() {
               >
                 <div className="overflow-hidden bg-beige/30 p-4 border border-earth/10">
                   <img
-                    src={item.image}
+                    src={getImgUrl(item.image)}
                     alt={item.title}
                     className="w-full h-auto object-cover aspect-[4/3] transform hover:scale-102 transition-transform duration-700"
                   />

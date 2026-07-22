@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useSearchParams } from "next/navigation";
 import { Filter, SlidersHorizontal, Info, X, Search, Sliders, LayoutGrid, Grid2X2, ChevronDown, ChevronRight, ChevronLeft } from "lucide-react";
 import Link from "next/link";
+import { getImgUrl } from "@/utils/image";
 
 // Rich product dataset representing luxury furniture
 const localFallbackData = [
@@ -151,8 +152,8 @@ function KoleksiyonContent() {
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const searchParams = useSearchParams();
-  const mainQuery = searchParams.get("main");
-  const subQuery = searchParams.get("sub");
+  const mainQuery = searchParams ? searchParams.get("main") : null;
+  const subQuery = searchParams ? searchParams.get("sub") : null;
   
   const [selectedMain, setSelectedMain] = useState(mainQuery || "all");
   const [selectedSub, setSelectedSub] = useState(subQuery || "all");
@@ -164,35 +165,52 @@ function KoleksiyonContent() {
   const [expandedCategories, setExpandedCategories] = useState({});
   const [globalCategoryTree, setGlobalCategoryTree] = useState([]);
 
-  // Fetch products from local fallback or PHP API, and merge with localStorage
+  useEffect(() => {
+    if (searchParams) {
+      const m = searchParams.get("main");
+      const s = searchParams.get("sub");
+      if (m) setSelectedMain(m);
+      if (s) setSelectedSub(s);
+    }
+  }, [searchParams]);
+
+  // Fetch products from local fallback or products.json, and merge with localStorage
   useEffect(() => {
     const fetchProducts = async () => {
       setLoading(true);
       let apiProducts = [];
       try {
-        const directRes = await fetch("/api/products.json");
+        const directRes = await fetch(getImgUrl("/api/products.json"));
         if (directRes.ok) {
           apiProducts = await directRes.json();
-        } else {
-          const response = await fetch("/api/get_products.php");
-          if (response.ok) {
-            const result = await response.json();
-            if (result.status === "success") {
-              apiProducts = result.data;
-            }
-          }
         }
       } catch (error) {
         console.warn(error.message);
+      }
+
+      if (!apiProducts || apiProducts.length === 0) {
         apiProducts = localFallbackData;
       }
 
-      apiProducts = apiProducts.map(p => ({
-        ...p,
-        price: typeof p.price === 'string' 
-          ? parseInt(p.price.replace(/[^\d]/g, ''), 10) 
-          : p.price
-      }));
+      apiProducts = apiProducts.map(p => {
+        let imageUrl = p.image;
+        if (!imageUrl && p.images && p.images.length > 0) {
+          imageUrl = p.images[0];
+        }
+        let image2Url = p.image2;
+        if (!image2Url && p.images && p.images.length > 1) {
+          image2Url = p.images[1];
+        }
+        
+        return {
+          ...p,
+          image: imageUrl,
+          image2: image2Url,
+          price: typeof p.price === 'string' 
+            ? parseInt(p.price.replace(/[^\d]/g, ''), 10) 
+            : p.price
+        };
+      });
 
       const localStr = localStorage.getItem("byman_local_products");
       const localProducts = localStr ? JSON.parse(localStr) : [];
@@ -500,13 +518,13 @@ function KoleksiyonContent() {
                           <div className="overflow-hidden relative mb-4 bg-beige/25 aspect-square flex items-center justify-center rounded-tr-[2.2rem] rounded-bl-[2.2rem]">
                             {/* Main Image */}
                             <img
-                              src={product.image}
+                              src={getImgUrl(product.image)}
                               alt={product.name}
                               className="w-full h-full object-cover absolute inset-0 transition-opacity duration-700 ease-in-out group-hover:opacity-0 z-10"
                             />
                             {/* Hover Image */}
                             <img
-                              src={product.image2 || product.image}
+                              src={getImgUrl(product.image2 || product.image)}
                               alt={product.name}
                               className="w-full h-full object-cover absolute inset-0 transition-all duration-[1000ms] ease-out opacity-0 scale-105 group-hover:opacity-100 group-hover:scale-100 z-0"
                             />

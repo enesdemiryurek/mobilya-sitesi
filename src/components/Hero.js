@@ -5,6 +5,8 @@ import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 
+import { getImgUrl } from "@/utils/image";
+
 export default function Hero() {
   const containerRef = useRef(null);
 
@@ -35,14 +37,14 @@ export default function Hero() {
           <div
             className="hidden sm:block absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: `url('/byman-hero.jpg')`,
+              backgroundImage: `url('${getImgUrl('/byman-hero.jpg')}')`,
             }}
           />
           {/* Mobile Background */}
           <div
             className="block sm:hidden absolute inset-0 bg-cover bg-top"
             style={{
-              backgroundImage: `url('/byman-hero-mobile.jpg')`,
+              backgroundImage: `url('${getImgUrl('/byman-hero-mobile.jpg')}')`,
             }}
           />
         </motion.div>

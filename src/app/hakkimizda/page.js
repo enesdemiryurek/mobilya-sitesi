@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { getImgUrl } from "@/utils/image";
 
 const brandValues = [
   {
@@ -70,7 +71,7 @@ export default function HakkimizdaPage() {
             className="lg:col-span-6 bg-beige/30 p-4 border border-earth/10"
           >
             <img
-              src="/hakkimizda-hikaye.jpg"
+              src={getImgUrl('/hakkimizda-hikaye.jpg')}
               alt="Byman Ofis Mobilyaları Fabrikası"
               className="w-full h-auto object-cover aspect-[4/5]"
             />
@@ -105,7 +106,7 @@ export default function HakkimizdaPage() {
         <div
           className="absolute inset-0 z-0 bg-cover bg-center bg-fixed"
           style={{
-            backgroundImage: `url('/malzeme-ahsap.jpg')`,
+            backgroundImage: `url('${getImgUrl('/malzeme-ahsap.jpg')}')`,
           }}
         />
         <div className="absolute inset-0 bg-black/50 z-10" />

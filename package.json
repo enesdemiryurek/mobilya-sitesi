@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "predeploy": "next build && node -e \"require('fs').writeFileSync('out/.nojekyll', '')\"",
-    "deploy": "gh-pages -d out -b gh-pages"
+    "predeploy": "next build",
+    "deploy": "node deploy.js"
   },
   "dependencies": {
     "browserslist": "^4.28.6",
