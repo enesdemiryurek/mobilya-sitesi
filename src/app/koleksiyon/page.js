@@ -164,6 +164,7 @@ function KoleksiyonContent() {
   const itemsPerPage = 24;
   const [expandedCategories, setExpandedCategories] = useState({});
   const [globalCategoryTree, setGlobalCategoryTree] = useState([]);
+  const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
 
   useEffect(() => {
     if (searchParams) {
@@ -342,9 +343,22 @@ function KoleksiyonContent() {
       </div>
 
       <div className="w-full mx-auto px-6 lg:px-12 2xl:px-20 mb-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
           
-          <aside className="hidden lg:block lg:col-span-2 space-y-10 sticky top-32">
+          {/* Mobile Filter Toggle */}
+          <div className="lg:hidden mb-2 flex justify-between items-center w-full col-span-1 border-b border-earth/10 pb-4">
+            <h1 className="text-xl text-anthracite font-serif">Tüm Koleksiyon</h1>
+            <button 
+              onClick={() => setIsMobileFiltersOpen(!isMobileFiltersOpen)}
+              className="flex items-center space-x-2 text-earth border border-earth/20 px-4 py-2 hover:bg-anthracite hover:text-cream transition-colors"
+            >
+              <SlidersHorizontal size={18} />
+              <span className="text-sm font-medium tracking-wide uppercase">Filtreler</span>
+            </button>
+          </div>
+
+          {/* Sidebar */}
+          <aside className={`${isMobileFiltersOpen ? "block" : "hidden"} lg:block lg:col-span-2 space-y-12 pr-6 lg:border-r border-earth/20 min-h-0 lg:min-h-[500px]`}>
             <div className="space-y-4">
               <span className="text-sm uppercase tracking-widest text-earth font-bold block border-b border-earth/20 pb-3">Arama</span>
               <div className="relative border-b border-earth/30 py-2 focus-within:border-anthracite transition-colors">
