@@ -490,18 +490,18 @@ function KoleksiyonContent() {
 
             {loading ? (
               /* Luxury Skeleton Loader */
-              <div className={`grid grid-cols-1 ${
+              <div className={`grid grid-cols-2 ${
                 layoutColumns === 4 
-                  ? "sm:grid-cols-2 lg:grid-cols-4 gap-6 xl:gap-8" 
-                  : "md:grid-cols-2 gap-10"
+                  ? "sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 xl:gap-8" 
+                  : "sm:grid-cols-2 gap-4 sm:gap-10"
               }`}>
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className={`bg-beige/20 border border-earth/10 animate-pulse rounded-tr-[2.5rem] rounded-bl-[2.5rem] ${
-                    layoutColumns === 4 ? "p-4 xl:p-6 h-[460px]" : "p-6 h-[500px]"
+                    layoutColumns === 4 ? "p-3 sm:p-4 xl:p-6 h-[260px] sm:h-[460px]" : "p-3 sm:p-6 h-[260px] sm:h-[500px]"
                   }`}>
-                    <div className="bg-earth/15 w-full h-[220px] mb-4 rounded-tr-[2.2rem] rounded-bl-[2.2rem]"></div>
-                    <div className="bg-earth/15 w-2/3 h-5 mb-2"></div>
-                    <div className="bg-earth/15 w-1/3 h-5"></div>
+                    <div className="bg-earth/15 w-full aspect-square mb-2 sm:mb-4 rounded-tr-[2.2rem] rounded-bl-[2.2rem]"></div>
+                    <div className="bg-earth/15 w-2/3 h-3 sm:h-5 mb-2"></div>
+                    <div className="bg-earth/15 w-1/3 h-3 sm:h-5"></div>
                   </div>
                 ))}
               </div>
@@ -509,10 +509,10 @@ function KoleksiyonContent() {
               /* Pinterest style or Asymmetric Flex Grid with Fade/Layout transition */
               <motion.div
                 layout
-                className={`grid grid-cols-1 ${
+                className={`grid grid-cols-2 ${
                   layoutColumns === 4 
-                    ? "sm:grid-cols-2 lg:grid-cols-4 gap-6 xl:gap-8" 
-                    : "md:grid-cols-2 gap-10"
+                    ? "sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 xl:gap-8" 
+                    : "sm:grid-cols-2 gap-4 sm:gap-10"
                 }`}
               >
                 <AnimatePresence mode="popLayout">
@@ -521,7 +521,7 @@ function KoleksiyonContent() {
                       <Link
                         href={`/urun/${product.slug}`}
                         className={`group relative cursor-pointer bg-cream border border-earth/25 hover:border-wood/50 shadow-sm hover:shadow-md transition-all duration-500 flex flex-col justify-between rounded-tr-[2.5rem] rounded-bl-[2.5rem] h-full ${
-                          layoutColumns === 4 ? "p-4 xl:p-6 min-h-[460px]" : "p-8 min-h-[500px]"
+                          layoutColumns === 4 ? "p-3 sm:p-4 xl:p-6 min-h-[260px] sm:min-h-[460px]" : "p-3 sm:p-8 min-h-[260px] sm:min-h-[500px]"
                         }`}
                       >
                         {/* Interactive Thin Framing Borders on hover */}
@@ -549,7 +549,7 @@ function KoleksiyonContent() {
 
                           {/* Title */}
                           <h3 className={`${
-                            layoutColumns === 4 ? "text-base xl:text-lg" : "text-xl md:text-2xl"
+                            layoutColumns === 4 ? "text-xs sm:text-base xl:text-lg" : "text-sm sm:text-xl md:text-2xl"
                           } text-serif-elegant font-medium text-anthracite group-hover:text-wood transition-colors duration-300 line-clamp-2`}>
                             {product.name}
                           </h3>
