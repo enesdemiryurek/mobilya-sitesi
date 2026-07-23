@@ -419,42 +419,42 @@ export default function Home() {
             whileInView="visible"
             viewport={{ once: true, margin: "-50px" }}
             variants={staggerContainer}
-            className="grid grid-cols-1 md:grid-cols-3 gap-8"
+            className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8"
           >
             {dynamicArrivals.map((product) => (
               <motion.div
                 variants={fadeInUp}
                 key={product.id}
-                className={`group flex flex-col justify-between overflow-hidden bg-cream p-5 border border-earth/10 hover:border-wood/30 transition-all duration-500 relative ${product.gridClass}`}
+                className={`group flex flex-col justify-between overflow-hidden bg-cream p-3 md:p-5 border border-earth/10 hover:border-wood/30 transition-all duration-500 relative ${product.gridClass}`}
               >
                 <Link href={`/urun/${product.slug || ''}`} className="absolute inset-0 z-30" aria-label={`${product.name} detaylarını incele`}></Link>
                 {/* Thin inner frame border on hover */}
                 <div className="absolute inset-0 border border-transparent group-hover:border-wood/10 scale-[0.98] group-hover:scale-[1.01] transition-all duration-700 pointer-events-none z-10"></div>
                 
                 {/* Image Wrap */}
-                <div className="overflow-hidden relative w-full h-[300px] md:h-full min-h-[220px] mb-4 bg-beige/25">
+                <div className="overflow-hidden relative w-full aspect-[4/3] md:h-full md:aspect-auto min-h-[140px] md:min-h-[220px] mb-3 md:mb-4 bg-beige/25">
                   <img
                     src={getImgUrl(product.image)}
                     alt={`${product.name} - ${product.category}`}
                     title={product.name}
                     className="absolute inset-0 w-full h-full object-cover transform scale-100 group-hover:scale-105 transition-transform duration-1000 ease-out"
                   />
-                  <div className="absolute top-4 left-4 bg-cream/90 backdrop-blur-sm px-3 py-1 text-[11px] text-sans-clean tracking-widest uppercase text-anthracite font-semibold z-20">
+                  <div className="absolute top-2 left-2 md:top-4 md:left-4 bg-cream/90 backdrop-blur-sm px-2 py-0.5 md:px-3 md:py-1 text-[8px] md:text-[11px] text-sans-clean tracking-widest uppercase text-anthracite font-semibold z-20">
                     {product.category}
                   </div>
                 </div>
 
                 {/* Details */}
-                <div className="flex items-end justify-between pt-2 z-20 relative">
+                <div className="flex flex-col md:flex-row md:items-end justify-between pt-2 z-20 relative gap-1 md:gap-0">
                   <div>
-                    <h4 className="text-lg md:text-xl text-serif-elegant font-medium text-anthracite group-hover:text-wood transition-colors duration-300">
+                    <h4 className="text-sm md:text-xl text-serif-elegant font-medium text-anthracite group-hover:text-wood transition-colors duration-300 line-clamp-1 md:line-clamp-none">
                       {product.name}
                     </h4>
-                    <p className="text-sm text-earth tracking-widest uppercase mt-1 font-medium">
+                    <p className="text-[10px] md:text-sm text-earth tracking-widest uppercase md:mt-1 font-medium">
                       Özel Üretim
                     </p>
                   </div>
-                  <span className="text-base font-semibold text-anthracite">
+                  <span className="text-sm md:text-base font-semibold text-anthracite">
                     {product.price}
                   </span>
                 </div>
